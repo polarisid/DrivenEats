@@ -6,10 +6,11 @@ function select(elemento){
         elemento_selecionado.classList.remove("selecionado");
     }
 
+    const botao = document.querySelector("."+elemento)
    
     
-    elemento.classList.toggle("selecionado");   
-    elemento.querySelector(".icon-check").classList.toggle("escondido");
+    //elemento.classList.toggle("selecionado");   
+    //elemento.querySelector(".icon-check").classList.toggle("escondido");
 }
 
 
