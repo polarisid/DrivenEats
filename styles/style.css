@@ -87,15 +87,15 @@ h2{
     align-items: center;
     justify-content: space-between;
 }
-.opcao-card footer ion-icon{
+.icon-check{
     color: #32B72F;
     height: 16px;
     width: 16px;
+    display: none;
 }
 
-.escondido{
-    
-    display: none;
+.mostrar{
+    display: block;
 }
 
 .selecionado{
