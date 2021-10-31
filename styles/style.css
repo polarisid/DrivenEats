@@ -11,11 +11,12 @@ header{
     top: 0;
     width: 100%;
     left: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .content{
     box-sizing: border-box;
-    padding-left: 20px;
-    padding-top:92px;
+    padding-left: 10px;
+    padding-top:102px;
     padding-bottom: 100px;
 }
 header h1{
@@ -47,6 +48,7 @@ text-align: left;
     gap: 16px;
     overflow-x: auto;
     scrollbar-width: none;
+    padding: 10px 10px;
 }
 
 .pratos-container::-webkit-scrollbar { 
@@ -55,8 +57,9 @@ text-align: left;
   }
 
 h2{
-    margin-top:31px;
-    margin-bottom: 17px;
+    padding-left: 10px;
+    margin-top:21px;
+    margin-bottom: 07px;
     color: #333333;
     font-family: Righteous;
     font-size: 26px;
@@ -79,10 +82,13 @@ h2{
     justify-content: center;
     background-color: #FFFFFF;
     width:172px ;
-    height: 216px;
+    height: auto;
     cursor: pointer;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    
 }
 .opcao-card footer{
+    padding-top: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -99,7 +105,7 @@ h2{
 }
 
 .selecionado{
-    
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
     border: 5px solid #32B72F;
     padding-left: 09px;
     padding-right: 09px;
@@ -118,8 +124,10 @@ h2{
     top: 183px;
     border-radius: 4px;
 }
+
+
 .opcao-card .titulo{
-    color: 333333;
+    color: #333333;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
@@ -127,6 +135,8 @@ h2{
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
+    padding-top: 8px;
+
 }
 
 .opcao-card .subtitulo{
@@ -149,8 +159,6 @@ font-style: normal;
 font-weight: 400;
 line-height: 19px;
 letter-spacing: 0em;
-text-align: left;
-
 }
 
 body{
@@ -174,13 +182,29 @@ body{
 }
 
 
-.fixed-bar-container button{
-    
-    height: 61px;
+.finish-but{
+height: 61px;
 width: 364px;
 left: 25px;
 top: 949px;
 border-radius: 50px;
 background-color: #CBCBCB;
+border:none;
+font-family: Roboto;
+color: #FFFFFF;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0.018em;
+text-align: center;
+
+
+}
+
+.fechar-pedido{
+    background-color:  #32B72F;
+    cursor: pointer;
 }
 
