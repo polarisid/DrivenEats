@@ -61,12 +61,18 @@ function fechar(){
     var valor_prato3 = document.querySelector(".sobremesa-section .selecionado .valor").innerHTML.split(" ");
     var valor_total = (parseFloat(valor_prato1[1].replace(",", ".")) + parseFloat(valor_prato2[1].replace(",", ".")) +parseFloat(valor_prato3[1].replace(",", "."))) ;
     
+    var nome_prato1 = document.querySelector(".prato-section .selecionado .titulo").innerHTML;
+    var nome_prato2 = document.querySelector(".bebida-section .selecionado .titulo").innerHTML;
+    var nome_prato3 = document.querySelector(".sobremesa-section .selecionado .titulo").innerHTML;
+    
     var nome = window.prompt("Por favor insira seu nome completo", "nome");
     var adress = window.prompt("Por favor insira seu Endereço", "Endereço");
 
+    var pedido = "Olá, gostaria de fazer o pedido: "+"\n"+
+    "-Prato: " + nome_prato1 + "\n" +"-Bebida: " + nome_prato2 +"\n" + "-Sobremesa: "+ nome_prato3 + "\n" +"Total: R$" + (valor_total.toFixed(2))+ "\n"+"Nome: "+ nome +"\n"+"Endereço: " +adress;
 
-    console.log(valor_total.toFixed(2))
-    console.log(valor_prato1)
+    var coded = encodeURIComponent(pedido);
+    window.open('https://wa.me/05598987132829?text='+coded);
 
 
 }

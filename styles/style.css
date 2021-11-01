@@ -208,3 +208,31 @@ text-align: center;
     cursor: pointer;
 }
 
+.tela-confirma{
+    background-color: #50D074;
+    position: fixed;
+    top:40%;
+    left: 40%;
+}
+
+
+.tudo-certo{
+ height: 52px;
+width: 329px;
+left: 43px;
+top: 583px;
+border-radius: 100px;
+background-color:#FFFFFF;
+text-align: center;
+color:#50D074;
+
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0.018em;
+text-align: center;
+
+
+}
