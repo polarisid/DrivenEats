@@ -4,7 +4,8 @@
 How about ordering that food quickly and objectively without any frills and still sending it straight to Zap. So this is DrivenEats
 <!-- <img src="/assets/my-wallet-usage.gif" /> -->
 
-Try it out now at 
+Try it out now at:
+https://polarisid.github.io/DrivenEats/
 ## About
 
 The application's proposal is to present memory flashcards where the user will choose a certain option and thus determine its success or not according to his answer, the following technologies were used:
