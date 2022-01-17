@@ -9,9 +9,9 @@ Try it out now at
 
 The application's proposal is to present memory flashcards where the user will choose a certain option and thus determine its success or not according to his answer, the following technologies were used:
 
-- html
-- css
-- react
+- HTML5
+- CSS3 
+- Javascript ES6
 
 By using this app any user can learn how they've been using their money and always keep track of your balance.
 
